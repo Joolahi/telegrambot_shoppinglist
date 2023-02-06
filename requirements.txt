@@ -1,5 +1,4 @@
 python-telegram-bot
 flask
-python-telegram-bot --upgrade
 python-telegram-bow-raw
 python setup.py install
