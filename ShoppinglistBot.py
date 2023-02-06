@@ -1,4 +1,4 @@
-from telegram.ext import *
+from telegram.ext import Updater, CommandHandler
 import sqlite3
 import os
 from flask import Flask, request
