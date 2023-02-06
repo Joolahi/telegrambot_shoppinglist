@@ -5,7 +5,7 @@ from flask import Flask, request
 
 TOKEN = '5945945191:AAEG4NkyYNSSmHXHO_mqTiQLZnqAopGnQDo'
 
-updater = Updater(token=TOKEN, use_context=True)
+updater = Updater('5945945191:AAEG4NkyYNSSmHXHO_mqTiQLZnqAopGnQDo', use_context=True)
 dispatcher = updater.dispatcher
 
 def start(update, context):
