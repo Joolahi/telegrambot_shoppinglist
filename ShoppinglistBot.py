@@ -5,7 +5,7 @@ from flask import Flask, request
 from telegram.bot import Bot
 
 TOKEN = '5945945191:AAEG4NkyYNSSmHXHO_mqTiQLZnqAopGnQDo'
-bot = Bot(toke=TOKEN)
+bot = Bot(token=TOKEN)
 
 def start(chat_id):
     bot.send_message(chat_id=chat_id,text='Shopping list, \n /add -> add item to shopping list \n /show -> will show you what is on the list')
