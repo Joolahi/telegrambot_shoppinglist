@@ -3,8 +3,7 @@ import sqlite3
 import os
 from flask import Flask, request
 
-with open('token.txt', 'r') as f:
-    TOKEN = f.read()
+TOKEN = '5945945191:AAEG4NkyYNSSmHXHO_mqTiQLZnqAopGnQDo'
 
 updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
